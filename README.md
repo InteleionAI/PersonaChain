@@ -34,7 +34,7 @@ uvicorn personachain.api:app --reload --port 8000
 # Then POST /reason with JSON {"query":"..."}
 ```
 
-🧑‍💻 Usage
+Usage
 CLI
 ```bash
 python -m personachain.cli "Should we adopt remote work?"
@@ -65,7 +65,6 @@ Remote work offers flexibility and productivity benefits, but requires strong pr
 - The Analyst: weighs data on productivity trade-offs.  
 
 **Project Structure**
-```text
 personachain/
 ├── core.py
 ├── cli.py
@@ -80,8 +79,8 @@ personachain/
 ├── Cargo.toml
 └── README.md
 
-## Strategies
-
+**Strategies
+**
 PersonaChain includes modular reasoning strategies you can extend:
 - Quantum-Inspired Reasoning
 - Fluid Reasoning
@@ -93,10 +92,10 @@ PersonaChain includes modular reasoning strategies you can extend:
 - Probabilistic Futures
 - Evolutionary Reasoning
 
-## Testing
+**Testing**
 pytest tests/
 
-## Docker
+**Docker**
 ```bash
 docker build -t personachain .
 docker run -p 8000:8000 personachain
