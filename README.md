@@ -65,6 +65,7 @@ Remote work offers flexibility and productivity benefits, but requires strong pr
 - The Analyst: weighs data on productivity trade-offs.  
 
 **Project Structure**
+```
 personachain/
 ├── core.py
 ├── cli.py
@@ -78,7 +79,7 @@ personachain/
 │   └── test_personachain.py
 ├── Cargo.toml
 └── README.md
-
+```
 **Strategies
 **
 PersonaChain includes modular reasoning strategies you can extend:
