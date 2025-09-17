@@ -65,7 +65,21 @@ Remote work offers flexibility and productivity benefits, but requires strong pr
 - The Analyst: weighs data on productivity trade-offs.  
 
 **Project Structure**
-```text personachain/ ├── core.py ├── cli.py ├── api.py ├── providers.py ├── strategies/ │ ├── base.py │ ├── quantum_inspired.py │ └── fluid_reasoning.py ├── tests/ │ └── test_personachain.py ├── Cargo.toml └── README.md ```
+```text
+personachain/
+├── core.py
+├── cli.py
+├── api.py
+├── providers.py
+├── strategies/
+│   ├── base.py
+│   ├── quantum_inspired.py
+│   └── fluid_reasoning.py
+├── tests/
+│   └── test_personachain.py
+├── Cargo.toml
+└── README.md
+```text personachain/ ├── core.py ├── cli.py ├── api.py ├── providers.py ├── strategies/ │ ├── base.py │ ├── quantum_inspired.py │ └── fluid_reasoning.py ├── tests/ │ └── test_personachain.py ├── Cargo.toml └── README.md
 
 ## Strategies
 
