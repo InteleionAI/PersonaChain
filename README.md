@@ -52,8 +52,8 @@ curl -X POST http://localhost:8000/reason -H "Content-Type: application/json" \
 ```
 
 ## Example Output
-# Reasoning Chain
 
+Reasoning Chain
 **Query:** Should we adopt remote work?
 
 **Final Answer:**
@@ -65,16 +65,7 @@ Remote work offers flexibility and productivity benefits, but requires strong pr
 - The Analyst: weighs data on productivity trade-offs.  
 
 **Project Structure**
-  personachain/
-   ├── core.py              # Core reasoning engine
-   ├── cli.py               # CLI tool
-   ├── api.py               # FastAPI REST API
-   ├── providers.py         # LLM providers (stub + integrations)
-   └── strategies/          # Reasoning strategies (quantum, fluid, etc.)
-  src/
-   └── lib.rs               # Rust core (optional FFI)
-  tests/
-   └── test_personachain.py # Unit tests
+<pre> ```text personachain/ ├── core.py ├── cli.py ├── api.py ├── providers.py ├── strategies/ │ ├── base.py │ ├── quantum_inspired.py │ └── fluid_reasoning.py ├── tests/ │ └── test_personachain.py ├── Cargo.toml └── README.md ``` </pre
 
 ## Strategies
 
