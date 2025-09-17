@@ -80,8 +80,7 @@ personachain/
 ├── Cargo.toml
 └── README.md
 ```
-**Strategies
-**
+**Strategies**
 PersonaChain includes modular reasoning strategies you can extend:
 - Quantum-Inspired Reasoning
 - Fluid Reasoning
@@ -94,7 +93,9 @@ PersonaChain includes modular reasoning strategies you can extend:
 - Evolutionary Reasoning
 
 **Testing**
-pytest tests/
+```
+pytest tests/*
+```
 
 **Docker**
 ```bash
