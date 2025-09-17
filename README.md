@@ -79,7 +79,6 @@ personachain/
 │   └── test_personachain.py
 ├── Cargo.toml
 └── README.md
-```text personachain/ ├── core.py ├── cli.py ├── api.py ├── providers.py ├── strategies/ │ ├── base.py │ ├── quantum_inspired.py │ └── fluid_reasoning.py ├── tests/ │ └── test_personachain.py ├── Cargo.toml └── README.md
 
 ## Strategies
 
